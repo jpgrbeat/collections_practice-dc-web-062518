@@ -9,5 +9,5 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.map{|word| word.length binding.pry}
+  arr.sort_by{|x| x.length}
 end
