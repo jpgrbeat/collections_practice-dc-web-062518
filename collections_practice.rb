@@ -21,5 +21,5 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map{|word| "#{word.split(1)}"}
+  arr.map{|word| word.insert()
 end
