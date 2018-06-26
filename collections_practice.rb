@@ -21,6 +21,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map{|word| word.insert(2,"$")}
+ new = arr.map{|word| word.insert(2,"$")}
+ new.map{|word| word[3].delete}
   
 end
